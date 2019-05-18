@@ -18,13 +18,43 @@ h1 {
 /* DIV contenedor de todos los productos */
 .contenedor-productos {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* DIV contenedor del producto */
 .producto {
     padding: 3%;
-    background-color: #dc143c;
-    border: 2px solid #000000;
+    min-width: 250px;
+    height: 350px;
+    margin: 1%;
+    box-shadow: 3px 3px 8px 0px #b6b6b6;
+    transition: transform 0.8s;
+    font-size: 20px;
 }
 
+    .producto:hover {
+        box-shadow: 10px 22px 86px -19px #333;
+        transform: translate(0px, -15px);
+    }
+
 /* DIV contenedor imagen */
+.foto-producto {
+    width: 100%;
+    height: auto;
+}
+
+    /* Imagen del producto en sí */
+    /* .foto-producto img {
+        width: 100%;
+        height: auto;
+    } */
+
+    .tipo-producto {
+        margin-top: 25px;
+        color: #8f8f8f;
+    }
+
+    .descripcion-producto {
+        color: #4e4e4e;
+    }
