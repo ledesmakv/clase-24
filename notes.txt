@@ -1,0 +1,11 @@
+transition controla cómo será una transición, la misma se aplica al elemento (div)
+sirve para cualquier cambio de estado
+
+transition: propiedad + tiempo ("all" aplica a todos los cambios)
+
+se puede agregar timing-function
+
+ease (default)
+linear (mantiene la misma velocidad todo el tiempo) los cambios se hacen exactamente a la misma vel.
+ease-in (empieza lento y va acelerando)
+ease-out (empieza rápido y va más lento)
